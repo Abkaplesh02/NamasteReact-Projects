@@ -1,0 +1,168 @@
+/* Header */
+.header{
+display: flex;
+justify-content:space-between;
+border: 1px solid darkgrey;
+height: 120px;
+
+}
+
+.logo-container{
+
+}
+
+.logo{
+width: 120px;
+}
+
+.nav-items{
+
+}
+
+.nav-items ul{
+display: flex;
+padding: 0px 10px;
+
+}
+
+.nav-items ul li{
+padding: 20px;
+margin: 10px;
+list-style: none;
+font-size: 24px;
+}
+
+.login-logout{
+    width: 120px;
+}
+
+/* Body */
+
+.Body{
+background-color: #CADCFC;
+padding: 15px;
+}
+
+.Search{
+
+}
+
+.Search button{
+width:15vw ;
+height: 46px;
+cursor: pointer;
+}
+
+.search-bar{
+width: 80vw;
+height: 40px;
+padding-left: 20px ;
+}
+
+.btns{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-control{
+    width: 15vw;
+    height: 46px;
+    cursor: pointer;
+}
+
+.rest-container{
+display: flex;
+flex-wrap: wrap;
+}
+
+/* Rest card */
+.restCard{
+    /* border: 1px solid black; */
+    width: 390px;
+    padding: 20px;
+    margin: 15px;
+}
+.img{
+    width: 100%;
+}
+
+.restCard:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: #00246B;
+}
+
+/* Shimmer UI */
+
+.shimmer-container{
+    margin-top: 30px;
+    border: 0.5px solid darkgrey;
+    
+    width: 400px;
+    padding: 10px;
+}
+
+.img-shimmer{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background-color: #f0f0f0;
+    height: 300px;
+    width: 370px;
+    padding: 0px 15px;
+}
+.shimmer-name{
+    height: 20px;
+    width: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+    
+}
+
+.shimmer-cuisine{
+    height: 20px;
+    width: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+
+}
+
+.shimmer-stars{
+    height: 20px;
+    width: 120px;
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+}
+
+.cost-for-two , .cost-for-twoo{
+    height: 20px;
+    width: 140px;
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+}
+
+
+.main-shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shim-btn{
+    
+}
+/* Header */
+.footer{
+    height: 300px;
+    background-color: black ;
+    text-align: center;
+
+}
+h2{
+    color: #CADCFC;
+   padding-top: 50px;
+}
+.Copyright{
+    color: #CADCFC;
+    padding: 40px;
+}
